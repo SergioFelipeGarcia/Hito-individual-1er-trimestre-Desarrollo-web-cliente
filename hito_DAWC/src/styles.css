@@ -1,0 +1,170 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 20px;
+    background-image: url('https://fisics.es/wp-content/uploads/2023/09/Jiu-jitsu-1280x1280.jpg');
+    background-size: cover; /* Otra opción: contain */
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 350px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #ff4500;
+    text-align: center;
+    padding: 65px;
+}
+
+/* Sección principal */
+.main-section {
+    background-color: #f8f9fa;
+}
+
+.feature-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.feature-box:hover {
+    transform: scale(1.05);
+}
+
+.feature-box h2 {
+    color: #007bff;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para Flexbox */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-md-4 {
+    flex: 0 0 33.333%;
+    max-width: 33.333%;
+    padding: 0 15px;
+}
+
+article {
+    margin: 20px; /* Agrega márgenes para separar el artículo del borde de la página */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.instructor-details {
+    border-radius: 10px;
+    padding: 15px; /* Añade un espacio interno para mejorar la legibilidad */
+    margin-bottom: 20px; /* Agrega espacio entre cada instructor */
+    justify-content: center;
+}
+
+h2 {
+    color: #ff4500;
+    text-align: center;
+    margin-top: 0;
+}
+
+h3 {
+    color: #0066cc; /* Cambia el color de los nombres de los instructores para destacarlos */
+}
+
+h4 {
+    color: #ffff; /* Cambia el color de los nombres de los instructores para destacarlos */
+}
+
+
+ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0; /* Elimina el relleno predeterminado de la lista */
+}
+
+li {
+    margin-bottom: 5px; /* Agrega espacio entre elementos de la lista */
+}
+
+.col {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: #ff4500;
+    padding: 5px;
+    margin: 30px;
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+    
+}
+
+nav a:hover {
+    color: black;
+}
+
+
+
+
+
+.Estilos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px; /* Ajusta este valor según tus preferencias */
+    align-items: center;
+    text-align: center;
+}
+
+.Estilos td {
+    max-width:100%;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden; /* Para ocultar cualquier contenido que exceda las dimensiones */
+    background-color: #f8f9fa;
+    border-radius: 10px; /* Añade bordes redondeados */
+    margin: 10px; /* Ajusta este valor según tus preferencias */
+    text-align: left; 
+}
+
+
+.Estilos img {
+    max-width: 80%;
+    height: auto;
+    display: block; /* Para eliminar espacios en blanco debajo de la imagen */
+    border-radius: 5px; /* Añade bordes redondeados a las imágenes */
+    margin-bottom: 10px; /* Ajusta este valor según tus preferencias */
+}

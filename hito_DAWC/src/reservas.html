@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Formulario de Reserva</title>
+    
+    <link rel="stylesheet" href="reservas.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Formulario de Reserva</h1>
+        <form id="reserva-form">
+            <!-- Aquí puedes agregar campos para el usuario actual si es necesario -->
+
+            <label for="estilo">Estilo:</label>
+            <select id="estilo" name="estilo" class="form-control">
+                <option value="karate">Karate</option>
+                <option value="muai-thai">Muai Thai</option>
+                <option value="kick-boxing">Kick Boxing</option>
+            </select>
+
+            <label for="dia">Día:</label>
+            <select id="dia" name="dia" class="form-control">
+                <option value="lunes">Lunes</option>
+                <option value="miercoles">Miércoles</option>
+            </select>
+
+            <label for="hora">Hora:</label>
+            <select id="hora" name="hora" class="form-control">
+                <option value="19:30">19:30</option>
+                <option value="20:00">20:00</option>
+            </select>
+
+            
+        </form>
+        <button onclick="guardarEnFirestore()" class="btn btn-primary">Reservar</button>
+    </div>
+    <!-- Importamos firebase-->
+    
+    <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore-compat.js"></script>
+    
+    <script src="app/reserva.js"></script>
+     <!-- <script src="./main.js" type="module"></script> -->
+     <script src="app/firebase.js" type="module"></script>
+</body>
+</html>
