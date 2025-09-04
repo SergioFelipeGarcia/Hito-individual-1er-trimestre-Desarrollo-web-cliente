@@ -1,74 +1,51 @@
 # Hito-individual-1er-trimestre-Desarrollo-web-cliente
-# Actividad 1 (LO1 & LO2)
-Redacte un informe de evaluación que analice las tecnologías que podrían utilizarse para
-desarrollar, alojar y gestionar el sitio web de DuBo Martial Arts. El informe debe incluir lo siguiente.
-● Identificación de la finalidad y los distintos tipos de DNS
-● Explicación de cómo se organizan y gestionan los nombres de dominio
-● Explicación de las relaciones entre el hardware y el software utilizados para diseñar,
-publicar y acceder al sitio web de DuBo Martial Arts, teniendo en cuenta:
-o protocolos de comunicación (por ejemplo, HTTPS, FTP)
-o hardware del servidor o sistemas operativos o software de servidor web (por ejemplo, Apache,
-TomCat, IIS, Nginx).
-● Un análisis de cómo las tecnologías de desarrollo web y marcos (por ejemplo, HTML5,
-JSON, JQuery, REACT, Angular, Node.js) han tenido un impacto en el diseño web, funcionalidad y
-gestión.
-● Revisión de la influencia de los motores de búsqueda en el rendimiento de los sitios web
-● Una revisión, respaldada por pruebas claras y bien documentadas, de cómo mejorar el
-valor de indexación de un sitio web mediante SEO.
-● Debate sobre las capacidades y relaciones de las tecnologías de front-end y backend de
-los sitios web y su relación con las capas de presentación y aplicación.
-● Un análisis del impacto de las diferentes herramientas y técnicas disponibles en el diseño y
-desarrollo de sitios web a medida
-● Debate sobre las diferencias entre las herramientas de creación de sitios web en línea y
-los sitios creados a medida, teniendo en cuenta:
-o flexibilidad de diseño
-o rendimiento
-o funcionalidad
-o Experiencia de usuario( UX)
-o Interfaz de usuario (IU).
 
-# Actividad 2
-Diseñar, desarrollar y probar el sitio web
-Debe diseñar una solución de sitio web de varias páginas que satisfaga las necesidades del sitio
-web de DuBo Martial Arts.
+---
 
-4
-Sus documentos de diseño deben incluir:
-● un conjunto completo de requisitos del cliente y del usuario, por ejemplo, requisitos
-funcionales y no funcionales, criterios de aceptación del usuario
-● wireframes
-● diseños de interfaz
-● detalles de:
-o consideraciones sobre redes y alojamiento o características de seguridad o cómo se aplicarán
-las directrices de accesibilidad e inclusión.
-A continuación, debe utilizar sus documentos de diseño para implementar un sitio web de varias
-páginas que satisfaga las necesidades de DuBo Martial Arts.
-Su aplicación debe incluir lo siguiente.
-● Un sitio web de marca con varias páginas para DuBo Martial Arts, respaldado con
-contenido realista procedente de su investigación adicional.
-● Creación de un plan de pruebas adecuado para el sitio web. El plan de pruebas debe
-identificar áreas clave que cubran tanto la funcionalidad como el rendimiento del sitio web
-desarrollado.
-● Explicación de los principios, normas y directrices de diseño web utilizados
-● Una justificación de la aplicación de las decisiones relativas al sitio web multipágina frente
-a las decisiones de diseño previstas, señalando las similitudes o diferencias.
-● Una aplicación del plan de pruebas con respecto al sitio web multipágina final desarrollado.
-● Análisis del proceso de garantía de calidad, incluida una revisión de cómo se aplicó
-durante las fases de diseño y desarrollo del sitio web de varias páginas para DuBo Martial Arts.
+### **Diseño Web y Fundamentos Front-End: Un Hito de Aprendizaje**
 
+Este proyecto es una práctica fundamental en el desarrollo front-end, centrada en el diseño de una interfaz web completa. Su propósito va más allá de un simple sitio web, sirviendo como una demostración de los conceptos esenciales y las mejores prácticas para cualquier desarrollador web.
 
+---
 
-# Actividad 3 (LO3 & LO4) Evaluación
-Elaborar un informe de evaluación que analice el diseño y el desarrollo del sitio web, y en qué
-medida el sitio web final satisface las necesidades de DuBo Martial Arts.
-El informe debe incluir lo siguiente
-● Justificación de los servicios de gestión, herramientas y software elegidos entre el abanico
-de opciones presentadas en la Actividad 1 que se utilizaron finalmente en el desarrollo del sitio
-web de DuBo Martial Arts.
-● Una evaluación del proceso de diseño y desarrollo de la página web de DuBo Martial Arts,
-en comparación con el documento de diseño original.
-● Una evaluación de los retos técnicos específicos a los que se ha enfrentado la creación del
-sitio web de DuBo Martial Arts.
-● Una evaluación de los resultados del Plan de Pruebas y del éxito general del sitio web.
-● Una lista de mejoras recomendadas para la página web de DuBo Martial Arts, que podría
-basarse en los comentarios de los clientes y en los resultados de las pruebas.
+### **El Valor Didáctico del Proyecto**
+
+Este proyecto fue diseñado como un ejercicio integral para consolidar habilidades clave en el desarrollo web del lado del cliente. Cada sección y funcionalidad tiene como objetivo ilustrar una lección fundamental, demostrando una comprensión sólida de cómo se construye una aplicación web moderna.
+
+### **Conceptos Fundamentales Demostrados**
+
+* **Maquetación y Estructura con HTML5:** La base del proyecto se construye con **HTML5** semántico, utilizando etiquetas con significado (`<header>`, `<nav>`, `<section>`, `<footer>`) para asegurar una estructura clara y accesible.
+* **Estilos y Diseño Responsivo:** El diseño de la interfaz se logra con **CSS3**, aplicando principios de maquetación avanzada como **Flexbox** y **Grid**. Además, se hace uso de **Media Queries** para garantizar que el sitio se adapte perfectamente a cualquier tamaño de pantalla, desde móviles hasta ordenadores de escritorio.
+* **Interactividad y Lógica del Cliente:** El uso de **JavaScript** permite añadir interactividad a la interfaz. Se demuestra la capacidad para manejar formularios, validar datos del usuario y responder a eventos, elementos esenciales para cualquier aplicación web dinámica.
+* **Gestión de Datos y Autenticación con Firebase:** La integración de **Firebase** demuestra la habilidad para trabajar con servicios de back-end como servicio (BaaS). Esto incluye la gestión de la autenticación de usuarios, la interacción con bases de datos en tiempo real y el manejo de datos dinámicos sin necesidad de un servidor dedicado.
+* **Buenas Prácticas y Optimización:** El proyecto sigue un enfoque de buenas prácticas al organizar los archivos del proyecto, lo cual facilita la escalabilidad y el mantenimiento. También se incorporan conceptos básicos de **SEO** (Search Engine Optimization) para optimizar el rendimiento y la visibilidad del sitio en los buscadores.
+* **Utilización de Frameworks:** La integración de **Bootstrap** muestra la capacidad para trabajar con frameworks CSS, acelerando el proceso de diseño y asegurando un resultado profesional y consistente.
+
+---
+
+### **Tecnologías Utilizadas**
+
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap
+* Firebase
+
+---
+
+### **Cómo Explorar el Proyecto**
+
+Para ver la interfaz en tu navegador:
+
+1.  Clona este repositorio en tu máquina local.
+2.  Abre el archivo `index.html` con tu navegador web preferido.
+
+---
+
+### **Sobre Mí**
+
+Soy **Sergio Felipe García**, un **Desarrollador de Aplicaciones Web (DAW)** con una base sólida en desarrollo full-stack, complementada con certificaciones en la nube de **Microsoft Azure** y **Power Platform**.
+
+* **LinkedIn:** [Enlace a tu perfil de LinkedIn]
+* **Portafolio:** [Enlace a tu portafolio de Streamlit]
+* **GitHub:** [Enlace a tu perfil de GitHub]
