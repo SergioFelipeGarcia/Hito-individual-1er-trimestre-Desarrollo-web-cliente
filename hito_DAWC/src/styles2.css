@@ -1,0 +1,186 @@
+/* ===================================== */
+/* 1. Variables de Diseño y Colores    */
+/* ===================================== */
+:root {
+    --color-primary: #ff4500;
+    --color-secondary: #007bff;
+    --color-dark: #343a40;
+    --color-light: #f8f9fa;
+    --color-white: #fff;
+    --color-gray: #6c757d;
+}
+
+/* ===================================== */
+/* 2. Estilos Generales y Tipografía   */
+/* ===================================== */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-light);
+    color: var(--color-dark);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Helvetica', sans-serif;
+    color: var(--color-dark);
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 3rem;
+    color: var(--color-primary);
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 2rem;
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    color: var(--color-secondary);
+}
+
+h4 {
+    color: var(--color-white);
+}
+
+a {
+    color: var(--color-secondary);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-primary);
+}
+
+/* ===================================== */
+/* 3. Componentes Principales          */
+/* ===================================== */
+
+/* Header y Banner */
+.header {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    background-image: url('https://fisics.es/wp-content/uploads/2023/09/Jiu-jitsu-1280x1280.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Navegación */
+nav {
+    background-color: var(--color-primary);
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: var(--color-white);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--color-dark);
+}
+
+/* Sección principal y pie de página */
+.main-section {
+    background-color: var(--color-light);
+}
+
+.footer {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    text-align: center;
+    padding: 20px;
+}
+
+/* ===================================== */
+/* 4. Componentes Secundarios          */
+/* ===================================== */
+
+/* Contenedores y Cajas de Características */
+.container {
+    padding: 0 15px;
+}
+
+.feature-box {
+    background-color: var(--color-white);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Instructor Details */
+.instructor-details {
+    background-color: var(--color-white);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.instructor-details img {
+    border-radius: 50%; /* Imágenes circulares para los instructores */
+    margin-bottom: 10px;
+}
+
+/* Estilos de tabla (si se usa para layout) */
+.Estilos td {
+    max-width: 100%;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: var(--color-light);
+    border-radius: 10px;
+    margin: 10px;
+    text-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Estilos img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Media Queries para Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
